@@ -42,8 +42,7 @@ ul {
 ul li{
     width: 100%;
     border: 1px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+   
     text-align: center;
 }
 ul li a{
@@ -52,8 +51,8 @@ ul li a{
     color: inherit;
     font-size: 2rem;
     width:100%; 
-   
- 
+    padding: 20px;
+   background-color: orange;
 }
 
 
@@ -65,8 +64,8 @@ ul li:last-child a {
 }
 
 
-li:hover, 
-li:focus 
+li a:hover, 
+li a:focus 
 {
     
  
