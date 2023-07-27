@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root{
+    --HEADER_COLOR: gold;
+    --BORDER_COLOR: black;
+    --BG_COLOR: black;
+    --MAIN_COLOR: white;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +15,7 @@ nav{
  
     font-family: Roboto;
     border-radius: 20px;
-    border: 1px solid black;
+    border: 1px solid var(--BORDER_COLOR);
     text-align: center;
     margin: 5px;
 }
@@ -16,7 +23,7 @@ nav{
 h2{
     padding: 20px;
     margin: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--BORDER_COLOR);
     background-color: gold;
     font-size: 3.5rem;
     border-top-left-radius: 20px;
@@ -41,7 +48,7 @@ ul {
 
 ul li{
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--BORDER_COLOR);
    
     text-align: center;
 }
@@ -52,7 +59,7 @@ ul li a{
     font-size: 2rem;
     width:100%; 
     padding: 20px;
-   background-color: orange;
+   
 }
 
 
@@ -69,8 +76,8 @@ li a:focus
 {
     
  
-    background-color: black;
-    color: white;
+    background-color: var(--BG_COLOR);
+    color: var(--MAIN_COLOR);
     cursor: pointer;
 }
  
